@@ -1,0 +1,96 @@
+{
+  "version": 1,
+  "author": "gpetrov",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "board-xiao-esp32-c3", "id": "esp", "top": -9.03, "left": 32.98, "attrs": {} },
+    {
+      "type": "board-ssd1306",
+      "id": "oled1",
+      "top": 185.54,
+      "left": 9.83,
+      "attrs": { "i2cAddress": "0x3c" }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btn1",
+      "top": -22.6,
+      "left": -144,
+      "attrs": { "color": "green", "xray": "1" }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btn2",
+      "top": 44.6,
+      "left": -144,
+      "attrs": { "color": "green", "xray": "1" }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btn3",
+      "top": 111.8,
+      "left": -144,
+      "attrs": { "color": "green", "xray": "1" }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btn4",
+      "top": 179,
+      "left": -144,
+      "attrs": { "color": "green", "xray": "1" }
+    },
+    {
+      "type": "wokwi-buzzer",
+      "id": "bz1",
+      "top": 35.7,
+      "left": 215.7,
+      "rotate": 90,
+      "attrs": { "volume": "0.1" }
+    },
+    {
+      "type": "wokwi-text",
+      "id": "text1",
+      "top": -9.6,
+      "left": -422.4,
+      "attrs": { "text": "Select Set alarm/UP in set minutes" }
+    },
+    {
+      "type": "wokwi-text",
+      "id": "text2",
+      "top": 57.6,
+      "left": -480,
+      "attrs": { "text": "Select Remove alarm/Down in set minutes" }
+    },
+    {
+      "type": "wokwi-text",
+      "id": "text3",
+      "top": 124.8,
+      "left": -499.2,
+      "attrs": { "text": "Enter selected option/Enter selected minutes" }
+    },
+    {
+      "type": "wokwi-text",
+      "id": "text4",
+      "top": 192,
+      "left": -393.6,
+      "attrs": { "text": "Enter \"Select minutes\" menu" }
+    }
+  ],
+  "connections": [
+    [ "btn1:1.l", "btn2:1.l", "green", [ "h-19.2", "v67.2" ] ],
+    [ "btn2:1.l", "btn3:1.l", "green", [ "h-19.2", "v67.2" ] ],
+    [ "btn3:1.l", "btn4:1.l", "green", [ "h-19.2", "v67.2" ] ],
+    [ "esp:D0", "btn1:2.r", "green", [ "h0" ] ],
+    [ "btn2:2.r", "esp:D1", "green", [ "h29", "v-57.4" ] ],
+    [ "btn3:2.r", "esp:D2", "green", [ "h38.6", "v-115" ] ],
+    [ "btn1:1.l", "esp:GND", "black", [ "h0", "v-28.8", "h259.2", "v48" ] ],
+    [ "oled1:GND", "esp:GND", "black", [ "v-105.6", "h76.8", "v-67.2" ] ],
+    [ "bz1:1", "esp:GND", "black", [ "h-48", "v-48" ] ],
+    [ "bz1:2", "esp:D8", "blue", [ "h-67.2", "v-19.6" ] ],
+    [ "oled1:VCC", "esp:3V3", "red", [ "v-19.2", "h57.75", "v-144" ] ],
+    [ "oled1:SDA", "esp:D4", "green", [ "v-57.6", "h-57.53", "v-86.4" ] ],
+    [ "oled1:SCL", "esp:D5", "green", [ "v-86.4", "h-57.3", "v-38.4" ] ],
+    [ "btn4:2.r", "esp:D3", "green", [ "h67.4", "v-172.6" ] ]
+  ],
+  "dependencies": {}
+}
