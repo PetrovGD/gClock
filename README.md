@@ -15,7 +15,10 @@
  - SSD1306 128x64 0.91inch display
  - 3D modeled enclosure
  - Custom firmware
-
+## Plans to upgrade
+* Add a functionality for the user to choose a melody
+* Add a snooze and stop alarm functions (now it just rings for set amount of seconds)
+* Make a more futuristic design
 ## Screenshots of the project
 ### PCB design
 ![Screenshot of the pcb design](https://github.com/PetrovGD/gClock/blob/main/pcb.png?raw=true)
