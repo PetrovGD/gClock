@@ -25,3 +25,9 @@
 ![Screenshot of the top design](https://github.com/PetrovGD/gClock/blob/main/toppart.png?raw=true)
 ### Bottom Part
 ![Screenshot of the top design](https://github.com/PetrovGD/gClock/blob/main/bottompart.png?raw=true)
+### Main Menu
+![Screenshot of the main menu](https://github.com/PetrovGD/gClock/blob/main/menu1.png?raw=true)
+### Set alarm Menu
+![Screenshot of the main menu](https://github.com/PetrovGD/gClock/blob/main/menusetalarm.png?raw=true)
+### Set minutes Menu
+![Screenshot of the main menu](https://github.com/PetrovGD/gClock/blob/main/menusetminutes.png?raw=true)
