@@ -8,13 +8,15 @@
 * Setting minutes until the alarm
 * more in future versions
 
-## Specifications
- - 4 Cherry MX Switches
- - 1 buzzer
- - Seeed Studio ESP32C3
- - SSD1306 128x64 0.91inch display
- - 3D modeled enclosure
- - Custom firmware
+## Bill of Materials (BOM)
+ - 4pcs Cherry MX Switches
+ - 4pcs Keycaps of your choice
+ - 1pcs 3.3V buzzer
+ - 1pcs Seeed Studio ESP32C3
+ - 1pcs SSD1306 128x64 0.91inch display
+ - 1pcs 3D printed custom enclosure (containing a main part and a protective cover)
+ - 2pcs M3x16mm Screws
+ - 1pcs M3x8mm Screws
 ## Plans to upgrade
 * Add a functionality for the user to choose a melody
 * Add a snooze and stop alarm functions (now it just rings for set amount of seconds)
