@@ -13,10 +13,9 @@
  - 4pcs Keycaps of your choice
  - 1pcs 3.3V buzzer
  - 1pcs Seeed Studio ESP32C3
- - 1pcs SSD1306 128x64 0.91inch display
- - 1pcs 3D printed custom enclosure (containing a main part and a protective cover)
- - 2pcs M3x16mm Screws
- - 1pcs M3x8mm Screws
+ - 1pcs SSD1306 128x64 0.91inch display (I will source the screen myself and won't use the one in the Blare kit)
+ - 1pcs 3D printed custom enclosure (containing a main part and a protective cover which is going to be glued to the main part)
+ - 2pcs M3x8mm Screws
 ## Plans to upgrade
 * Add a functionality for the user to choose a melody
 * Add a snooze and stop alarm functions (now it just rings for set amount of seconds)
